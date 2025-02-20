@@ -77,3 +77,10 @@ h1 a, h1 a:hover {
 #results-nav span {
     padding-right: 20px;
 }
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
