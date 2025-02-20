@@ -73,7 +73,7 @@ function addressSearch() {
     $.address.parameter('address', encodeURIComponent(address));
 
     var params = {
-        'key': AIzaSyB7Op07r2Rmvoz6KXehnIfue0GjyxANbQ0,
+        'key': API_KEY,
         'address': address
     }
     $.when($.getJSON(INFO_API, params)).then(function(data){
