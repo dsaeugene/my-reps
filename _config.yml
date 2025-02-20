@@ -7,4 +7,4 @@ timezone: America/Los_Angeles
 description: "Enter your address to find and contact your federal, state, county and local elected representatives"
 gems:
   - jekyll-redirect-from
-google_api_key: AIzaSyB7Op07r2Rmvoz6KXehnIfue0GjyxANbQ0
+google_api_key: ${{ secrets.maps_api }}
