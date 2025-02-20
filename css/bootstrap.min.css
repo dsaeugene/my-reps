@@ -67,6 +67,7 @@ dfn {
 }
 h1 {
   font-size: 2em;
+  font-weight: 500;
   margin: 0.67em 0;
 }
 mark {
@@ -79,6 +80,7 @@ small {
 sub,
 sup {
   font-size: 75%;
+  font-weight: 500;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -1223,6 +1225,7 @@ h6 .small,
 .h5 .small,
 .h6 .small {
   font-weight: normal;
+  font-weight: 500;
   line-height: 1;
   color: #808080;
 }
@@ -1248,6 +1251,7 @@ h2 .small,
 h3 .small,
 .h3 .small {
   font-size: 65%;
+  font-weight: 500;
 }
 h4,
 .h4,
@@ -1271,48 +1275,58 @@ h5 .small,
 h6 .small,
 .h6 .small {
   font-size: 75%;
+  font-weight: 500;
 }
 h1,
 .h1 {
   font-size: 33px;
+  font-weight: 500;
 }
 h2,
 .h2 {
   font-size: 27px;
+  font-weight: 500;
 }
 h3,
 .h3 {
   font-size: 23px;
+  font-weight: 500;
 }
 h4,
 .h4 {
   font-size: 17px;
+  font-weight: 500;
 }
 h5,
 .h5 {
   font-size: 13px;
+  font-weight: 500;
 }
 h6,
 .h6 {
   font-size: 12px;
+  font-weight: 500;
 }
 p {
   margin: 0 0 9px;
+  font-weight: 500;
 }
 .lead {
   margin-bottom: 18px;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   .lead {
     font-size: 19.5px;
+    font-weight: 500;
   }
 }
 small,
 .small {
   font-size: 92%;
+  font-weight: 500;
 }
 mark,
 .mark {
@@ -1482,12 +1496,14 @@ abbr[data-original-title] {
 }
 .initialism {
   font-size: 90%;
+  font-weight: 500;
   text-transform: uppercase;
 }
 blockquote {
   padding: 9px 18px;
   margin: 0 0 18px;
   font-size: 16.25px;
+  font-weight: 500;
   border-left: 5px solid #dddddd;
 }
 blockquote p:last-child,
@@ -1500,6 +1516,7 @@ blockquote small,
 blockquote .small {
   display: block;
   font-size: 80%;
+  font-weight: 500;
   line-height: 1.42857143;
   color: #808080;
 }
@@ -1535,6 +1552,7 @@ blockquote.pull-right .small:after {
 address {
   margin-bottom: 18px;
   font-style: normal;
+  font-weight: 500;
   line-height: 1.42857143;
 }
 code,
@@ -3108,7 +3126,7 @@ select[multiple].input-lg {
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: 500;
   text-align: center;
   vertical-align: middle;
   -ms-touch-action: manipulation;
@@ -3506,7 +3524,7 @@ fieldset[disabled] .btn-danger.focus {
 }
 .btn-link {
   color: #d9230f;
-  font-weight: normal;
+  font-weight: 500;
   border-radius: 0;
 }
 .btn-link,
@@ -3541,6 +3559,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-group-lg > .btn {
   padding: 14px 16px;
   font-size: 17px;
+  font-weight: 500;
   line-height: 1.3333333;
   border-radius: 6px;
 }
@@ -3548,6 +3567,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
+  font-weight: 500;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -3555,6 +3575,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-group-xs > .btn {
   padding: 1px 5px;
   font-size: 12px;
+  font-weight: 500;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -3635,6 +3656,7 @@ tbody.collapse.in {
   margin: 2px 0 0;
   list-style: none;
   font-size: 13px;
+  font-weight: 500;
   text-align: left;
   background-color: #ffffff;
   border: 1px solid #cccccc;
@@ -3659,7 +3681,7 @@ tbody.collapse.in {
   display: block;
   padding: 3px 20px;
   clear: both;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 1.42857143;
   color: #444444;
   white-space: nowrap;
@@ -3709,6 +3731,7 @@ tbody.collapse.in {
   display: block;
   padding: 3px 20px;
   font-size: 12px;
+  font-weight: 500;
   line-height: 1.42857143;
   color: #808080;
   white-space: nowrap;
@@ -3949,6 +3972,7 @@ tbody.collapse.in {
   height: 53px;
   padding: 14px 16px;
   font-size: 17px;
+  font-weight: 500;
   line-height: 1.3333333;
   border-radius: 6px;
 }
@@ -3972,6 +3996,7 @@ select[multiple].input-group-lg > .input-group-btn > .btn {
   height: 30px;
   padding: 5px 10px;
   font-size: 12px;
+  font-weight: 500;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -4008,7 +4033,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-addon {
   padding: 8px 12px;
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 1;
   color: #777777;
   text-align: center;
@@ -4019,11 +4044,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-addon.input-sm {
   padding: 5px 10px;
   font-size: 12px;
+  font-weight: 500;
   border-radius: 3px;
 }
 .input-group-addon.input-lg {
   padding: 14px 16px;
   font-size: 17px;
+  font-weight: 500;
   border-radius: 6px;
 }
 .input-group-addon input[type="radio"],
@@ -4059,6 +4086,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn {
   position: relative;
   font-size: 0;
+  font-weight: 500;
   white-space: nowrap;
 }
 .input-group-btn > .btn {
@@ -4385,6 +4413,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   padding: 11px 15px;
   font-size: 17px;
+  font-weight: 500;
   line-height: 18px;
   height: 40px;
 }
@@ -4888,6 +4917,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination-lg > li > span {
   padding: 14px 16px;
   font-size: 17px;
+  font-weight: 500;
   line-height: 1.3333333;
 }
 .pagination-lg > li:first-child > a,
@@ -4904,6 +4934,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination-sm > li > span {
   padding: 5px 10px;
   font-size: 12px;
+  font-weight: 500;
   line-height: 1.5;
 }
 .pagination-sm > li:first-child > a,
@@ -5249,6 +5280,7 @@ a.thumbnail.active {
   width: 0%;
   height: 100%;
   font-size: 12px;
+  font-weight: 500;
   line-height: 18px;
   color: #ffffff;
   text-align: center;
@@ -5718,6 +5750,7 @@ button.list-group-item-danger.active:focus {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 15px;
+  font-weight: 500;
   color: inherit;
 }
 .panel-title > a,
@@ -6499,6 +6532,7 @@ button.close {
   margin: 0;
   padding: 8px 14px;
   font-size: 13px;
+  font-weight: 500;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-radius: 5px 5px 0 0;
@@ -6670,6 +6704,7 @@ button.close {
   opacity: 0.5;
   filter: alpha(opacity=50);
   font-size: 20px;
+  
   color: #ffffff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
@@ -7259,7 +7294,7 @@ button.close {
   border: 1px solid #ac6819;
 }
 body {
-  font-weight: 200;
+  font-weight: 500;
 }
 th {
   color: #444444;
@@ -7268,7 +7303,7 @@ legend {
   color: #444444;
 }
 label {
-  font-weight: normal;
+  font-weight: 500;
 }
 .has-warning .help-block,
 .has-warning .control-label,
