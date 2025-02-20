@@ -189,11 +189,10 @@ layout: default
             <td>
                 <% if ((info.person.photoUrl) == https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg) { %>
                     <img class="img-rounded headshot" src="https://www.whitehouse.gov/wp-content/uploads/2025/01/President-Elect-Donald-J.-Trump.jpg" title="<%= info.person.name %>" />
+                <% } else if (info.person.photoUrl) { %>
+                    <img class="img-rounded headshot" src="<%= info.person.photoUrl %>" alt="<%= info.person.name %>" title="<%= info.person.name %>" />
                 <% } else { %>
-                    <% if (info.person.photoUrl) { %>
-                        <img class="img-rounded headshot" src="<%= info.person.photoUrl %>" alt="<%= info.person.name %>" title="<%= info.person.name %>" />
-                    <% } else { %>
-                        <img class="img-rounded headshot" style="display:none;" src="/images/blank-person.jpg" alt="<%= info.person.name %>" title="<%= info.person.name %>" />
+                    <img class="img-rounded headshot" style="display:none;" src="/images/blank-person.jpg" alt="<%= info.person.name %>" title="<%= info.person.name %>" />
                 <% } %>
             </td>
             <td>
