@@ -1091,6 +1091,7 @@ html {
 body {
   font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
+  font-weight: 500;
   line-height: 1.42857143;
   color: #231F20;
   background-color: #fcfcfc;
@@ -1101,6 +1102,7 @@ select,
 textarea {
   font-family: inherit;
   font-size: inherit;
+  font-weight: 500;
   line-height: inherit;
 }
 a {
@@ -1192,7 +1194,7 @@ h6,
 .h5,
 .h6 {
   font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.1;
   color: #3B3838;
 }
@@ -6340,7 +6342,7 @@ button.close {
   display: block;
   font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   letter-spacing: normal;
   line-break: auto;
   line-height: 1.42857143;
@@ -6458,7 +6460,7 @@ button.close {
   padding: 1px;
   font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   letter-spacing: normal;
   line-break: auto;
   line-height: 1.42857143;
